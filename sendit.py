@@ -9,7 +9,7 @@ def main():
 
     # Configure the serial port for RS485 communication
     ser = serial.Serial(
-        port='/dev/ttyUSB0',
+        port='/dev/ttyUSB0', # Replace with path for your RS485 converter, (e.g. COM3 for Windows or /dev/ttyUSB0 for linux)
         baudrate=4800,
         bytesize=serial.EIGHTBITS,
         parity=serial.PARITY_EVEN,
