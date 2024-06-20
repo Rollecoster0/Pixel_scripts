@@ -20,7 +20,7 @@ These scripts were tested on a 16x112 display with Linux, might not work well wi
 
 `clock.sh`  Shows current system time on the display
 
-`./2txt2line2hex.sh -s1 top text -s2 bottom text`  Converts characters to hex and displays it in 2 lines, unknown characters will display as "?"
+`./txt2line2hex.sh -s1 top text -s2 bottom text`  Converts characters to hex and displays it in 2 lines, unknown characters will display as "?"
 
 `pixel data_en.txt` example data pulled from the display driver with instructions on how to make your own 
 
