@@ -6,7 +6,7 @@ def image_to_hex(image_path):
     img = Image.open(image_path).convert('1')  # '1' mode for 1-bit pixels, black and white
 
     # Ensure the image is 16x112
-    #assert img.size == (16, 112), "Image must be 16x112 pixels"
+    assert img.size == (16, 112), "Image must be 16x112 pixels"
 
     # Create a binary string from the image
     binary_string = ''
